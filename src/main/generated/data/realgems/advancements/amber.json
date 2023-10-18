@@ -1,0 +1,39 @@
+{
+  "parent": "realgems:realgems",
+  "criteria": {
+    "has_amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:amber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "realgems:textures/block/amber_ore.png",
+    "description": {
+      "text": "A Inspiration to my mod!"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "realgems:amber"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Amber"
+    }
+  },
+  "requirements": [
+    [
+      "has_amber"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

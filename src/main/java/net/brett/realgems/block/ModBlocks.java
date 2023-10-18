@@ -1,6 +1,8 @@
 package net.brett.realgems.block;
 
 import net.brett.realgems.RealGems;
+import net.brett.realgems.block.custom.SweetcornCropBlock;
+import net.brett.realgems.world.gen.tree.ColdTreeSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -23,6 +25,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.COAL_BLOCK)));
     public static final Block SAPPHIRE_BLOCK = registerBlock("sapphire_block",
             new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+    public static final Block AMBER_BLOCK = registerBlock("amber_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK)));
+
 
     public static final Block SAPPHIRE_ORE = registerBlock("sapphire_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE), UniformIntProvider.create(3, 6)));
@@ -48,6 +53,13 @@ public class ModBlocks {
     public static final Block DEEPSLATE_PINK_DIAMOND_ORE = registerBlock("deepslate_pink_diamond_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE), UniformIntProvider.create(4, 7)));
 
+public static final Block DEEPSLATE_AMBER_ORE = registerBlock("deepslate_amber_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.DEEPSLATE), UniformIntProvider.create(3, 6)));
+
+    public static final Block AMBER_ORE = registerBlock("amber_ore",
+            new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE), UniformIntProvider.create(4, 7)));
+
+
     public static final Block COLD_TREE_LOG = registerBlock("cold_tree_log",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LOG).strength(4f)));
 
@@ -61,7 +73,6 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.STRIPPED_SPRUCE_WOOD).strength(4f)));
 
 
-
     public static final Block COLD_TREE_PLANKS = registerBlock("cold_tree_planks",
             new Block(FabricBlockSettings.copyOf(Blocks.SPRUCE_PLANKS).strength(4f)));
 
@@ -71,7 +82,10 @@ public class ModBlocks {
 
 
     public static final Block COLD_TREE_SAPLING = registerBlock("cold_tree_sapling",
-            new SaplingBlock(null, FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).strength(1f)));
+            new SaplingBlock(new ColdTreeSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.SPRUCE_SAPLING).strength(1f)));
+
+public static final Block SWEETCORN_CROP = registerBlockWithoutBlockItem("sweetcorn_crop",
+            new SweetcornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
 
 
@@ -81,10 +95,12 @@ public class ModBlocks {
      return Registry.register(Registries.BLOCK,new Identifier(RealGems.MOD_ID,name),block);
  }
 
+    private static Block registerBlockWithoutBlockItem(String name, Block block) {
+        return Registry.register(Registries.BLOCK, new Identifier(RealGems.MOD_ID, name),block);
 
+    }
 
-
-private static Item registerBlockItem(String name, Block block){
+        private static Item registerBlockItem(String name, Block block) {
     return Registry.register(Registries.ITEM, new Identifier(RealGems.MOD_ID, name),
             new BlockItem(block, new FabricItemSettings()));
 }

@@ -37,7 +37,6 @@ public class  ModItemGroup {
 
 
 
-
                     }).build());
 
     public static final ItemGroup FOOD = Registry.register(Registries.ITEM_GROUP,
@@ -46,6 +45,20 @@ public class  ModItemGroup {
                     .icon(() -> new ItemStack(ModItems.BANANA)).entries((displayContext, entries) -> {
                          entries.add(ModItems.BANANA);
                          entries.add(ModItems.CHERRY);
+                         entries.add(ModItems.SWEETCORN);
+
+
+
+
+
+
+                    }).build());
+
+    public static final ItemGroup SEEDS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RealGems.MOD_ID, "seeds"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.seeds"))
+                    .icon(() -> new ItemStack(ModItems.SWEETCORN_SEEDS)).entries((displayContext, entries) -> {
+                         entries.add(ModItems.SWEETCORN_SEEDS);
 
 
 
@@ -120,9 +133,9 @@ public class  ModItemGroup {
 
                     }).build());
 
-                        public static final ItemGroup WOOD_AND_SAPLING = Registry.register(Registries.ITEM_GROUP,
-                                new Identifier(RealGems.MOD_ID, "wood_and_sapling"),
-                                FabricItemGroup.builder().displayName(Text.translatable("itemgroup.wood_and_sapling"))
+                        public static final ItemGroup WOOD_AND_SAPLINGS = Registry.register(Registries.ITEM_GROUP,
+                                new Identifier(RealGems.MOD_ID, "wood_and_saplings"),
+                                FabricItemGroup.builder().displayName(Text.translatable("itemgroup.wood_and_saplings"))
                                         .icon(() -> new ItemStack(ModBlocks.COLD_TREE_SAPLING)).entries((displayContext, entries) -> {
 
                         entries.add(ModBlocks.COLD_TREE_PLANKS);
@@ -133,6 +146,32 @@ public class  ModItemGroup {
                         entries.add(ModBlocks.STRIPPED_COLD_TREE_LOG);
                         entries.add(ModBlocks.COLD_TREE_SAPLING);
 
+
+                    }).build());
+
+   public static final ItemGroup AMBER = Registry.register(Registries.ITEM_GROUP,
+                                new Identifier(RealGems.MOD_ID, "amber"),
+                                FabricItemGroup.builder().displayName(Text.translatable("itemgroup.amber"))
+                                        .icon(() -> new ItemStack(ModItems.AMBER)).entries((displayContext, entries) -> {
+
+                       entries.add(ModItems.AMBER);
+                       entries.add(ModItems.RAW_AMBER);
+
+                       entries.add(ModItems.AMBER_HELMET);
+                       entries.add(ModItems.AMBER_CHESTPLATE);
+                       entries.add(ModItems.AMBER_LEGGINGS);
+                       entries.add(ModItems.AMBER_BOOTS);
+
+                       entries.add(ModItems.AMBER_SWORD);
+                       entries.add(ModItems.AMBER_AXE);
+                       entries.add(ModItems.AMBER_PICKAXE);
+                       entries.add(ModItems.AMBER_SHOVEL);
+                       entries.add(ModItems.AMBER_HOE);
+                       entries.add(ModItems.AMBER_PAXEL);
+
+                       entries.add(ModBlocks.AMBER_BLOCK);
+                       entries.add(ModBlocks.AMBER_ORE);
+                       entries.add(ModBlocks.DEEPSLATE_AMBER_ORE);
 
                     }).build());
 

@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "realgems:jade_ore",
+    "realgems:amber_ore",
     "realgems:pink_diamond_ore",
     "realgems:sapphire_ore",
     "realgems:red_coal_ore",
@@ -9,10 +10,12 @@
     "realgems:jade_block",
     "realgems:sapphire_block",
     "realgems:pink_diamond_block",
+    "realgems:amber_block",
     "realgems:deepslate_pink_diamond_ore",
     "realgems:deepslate_sapphire_ore",
     "realgems:deepslate_jade_ore",
     "realgems:deepslate_sapphire_ore",
-    "realgems:deepslate_red_coal_ore"
+    "realgems:deepslate_red_coal_ore",
+    "realgems:deepslate_amber_ore"
   ]
 }

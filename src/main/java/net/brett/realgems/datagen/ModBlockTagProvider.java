@@ -21,7 +21,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.JADE_ORE,
-
+                        ModBlocks.AMBER_ORE,
                         ModBlocks.PINK_DIAMOND_ORE,
                         ModBlocks.SAPPHIRE_ORE,
                         ModBlocks.RED_COAL_ORE,
@@ -30,13 +30,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.JADE_BLOCK,
                         ModBlocks.SAPPHIRE_BLOCK,
                         ModBlocks.PINK_DIAMOND_BLOCK,
-
+                        ModBlocks.AMBER_BLOCK,
 
                         ModBlocks.DEEPSLATE_PINK_DIAMOND_ORE,
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
                         ModBlocks.DEEPSLATE_JADE_ORE,
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
-                        ModBlocks.DEEPSLATE_RED_COAL_ORE);
+                        ModBlocks.DEEPSLATE_RED_COAL_ORE,
+                        ModBlocks.DEEPSLATE_AMBER_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 
@@ -44,19 +45,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
                         ModBlocks.DEEPSLATE_JADE_ORE,
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
+                        ModBlocks.DEEPSLATE_AMBER_ORE,
                         ModBlocks.DEEPSLATE_RED_COAL_ORE);
+
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.JADE_ORE,
                         ModBlocks.RED_COAL_ORE,
                         ModBlocks.SAPPHIRE_ORE,
                         ModBlocks.RAW_JADE_BLOCK,
-                        ModBlocks.PINK_DIAMOND_ORE);
+                        ModBlocks.PINK_DIAMOND_ORE,
+                        ModBlocks.AMBER_ORE);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.JADE_BLOCK,
                         ModBlocks.PINK_DIAMOND_BLOCK,
                         ModBlocks.SAPPHIRE_BLOCK,
+                        ModBlocks.AMBER_BLOCK,
                         ModBlocks.RED_COAL_BLOCK);
 
         getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
@@ -65,9 +70,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.SHOVEL_MINEABLE);
 
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.STRIPPED_COLD_TREE_LOG)
-                .add(ModBlocks.STRIPPED_COLD_TREE_WOOD)
-                .add(ModBlocks.COLD_TREE_LOG)
-                .add(ModBlocks.COLD_TREE_WOOD);
+                .add(ModBlocks.STRIPPED_COLD_TREE_LOG, ModBlocks.STRIPPED_COLD_TREE_WOOD, ModBlocks.COLD_TREE_LOG, ModBlocks.COLD_TREE_WOOD);
     }
 }

@@ -1,6 +1,7 @@
 package net.brett.realgems.item;
 
 import net.brett.realgems.RealGems;
+import net.brett.realgems.block.ModBlocks;
 import net.brett.realgems.item.custom.PaxelItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.*;
@@ -20,14 +21,44 @@ public class ModItems {
           new Item(new FabricItemSettings()));
   public static final Item SAPPHIRE = registerItem("sapphire",
           new Item(new FabricItemSettings()));
+ public static final Item AMBER = registerItem("amber",
+          new Item(new FabricItemSettings()));
+ public static final Item RAW_AMBER = registerItem("raw_amber",
+          new Item(new FabricItemSettings()));
 
   public static final Item BANANA = registerItem("banana",
           new Item(new FabricItemSettings().food(ModFoodComponents.BANANA)));
   public static final Item CHERRY = registerItem("cherry",
           new Item(new FabricItemSettings().food(ModFoodComponents.CHERRY)));
+  public static final Item SWEETCORN = registerItem("sweetcorn",
+          new Item(new FabricItemSettings().food(ModFoodComponents.SWEETCORN)));
+  public static final Item SWEETCORN_SEEDS = registerItem("sweetcorn_seeds",
+          new AliasedBlockItem(ModBlocks.SWEETCORN_CROP, new FabricItemSettings()));
 
 
 
+
+  public static final Item AMBER_HELMET = registerItem("amber_helmet",
+          new ArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.HELMET, new FabricItemSettings()));
+  public static final Item AMBER_CHESTPLATE = registerItem("amber_chestplate",
+          new ArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+  public static final Item AMBER_LEGGINGS = registerItem("amber_leggings",
+          new ArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+  public static final Item AMBER_BOOTS = registerItem("amber_boots",
+          new ArmorItem(ModArmorMaterials.AMBER, ArmorItem.Type.BOOTS, new FabricItemSettings()));
+
+    public static final Item AMBER_SWORD = registerItem("amber_sword",
+            new SwordItem(ModToolMaterial.AMBER,3,3.5f,new FabricItemSettings()));
+    public static final Item AMBER_AXE = registerItem("amber_axe",
+            new AxeItem(ModToolMaterial.AMBER,2,1f,new FabricItemSettings()));
+    public static final Item AMBER_PICKAXE = registerItem("amber_pickaxe",
+            new PickaxeItem(ModToolMaterial.AMBER,2,1f,new FabricItemSettings()));
+    public static final Item AMBER_SHOVEL = registerItem("amber_shovel",
+            new ShovelItem(ModToolMaterial.AMBER,2,0.5f,new FabricItemSettings()));
+    public static final Item AMBER_HOE = registerItem("amber_hoe",
+            new HoeItem(ModToolMaterial.AMBER,1,1f,new FabricItemSettings()));
+    public static final Item AMBER_PAXEL = registerItem("amber_paxel",
+            new PaxelItem(ModToolMaterial.AMBER,2,2f,new FabricItemSettings()));
 
 
   public static final Item JADE_SWORD = registerItem("jade_sword",

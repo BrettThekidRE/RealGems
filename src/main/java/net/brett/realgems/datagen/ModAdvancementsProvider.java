@@ -49,6 +49,15 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
                 .parent(rootAdvancement)
                 .build(consumer, RealGems.MOD_ID + ":pink_diamond");
 
+        Advancement amber_Ore = Advancement.Builder.create()
+                .display(new AdvancementDisplay(new ItemStack(ModItems.AMBER),
+                        Text.literal("Amber"), Text.literal("A Inspiration to my mod!"),
+                        new Identifier(RealGems.MOD_ID, "textures/block/amber_ore.png"), AdvancementFrame.TASK,
+                        true, true, false))
+                .criterion("has_amber", InventoryChangedCriterion.Conditions.items(ModItems.AMBER))
+                .parent(rootAdvancement)
+                .build(consumer, RealGems.MOD_ID + ":amber");
+
 
     }
 }

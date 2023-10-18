@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "realgems:amber"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "realgems:amber_helmet"
+  },
+  "show_notification": true
+}

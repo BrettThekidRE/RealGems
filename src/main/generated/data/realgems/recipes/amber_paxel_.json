@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "realgems:amber_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "a": {
+      "item": "realgems:amber_axe"
+    },
+    "s": {
+      "item": "realgems:amber_shovel"
+    }
+  },
+  "pattern": [
+    "asP",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:amber_paxel"
+  },
+  "show_notification": true
+}

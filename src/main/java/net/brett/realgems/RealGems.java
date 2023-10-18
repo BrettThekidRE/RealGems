@@ -4,6 +4,7 @@ import net.brett.realgems.block.ModBlocks;
 import net.brett.realgems.item.ModItemGroup;
 import net.brett.realgems.item.ModItems;;
 import net.brett.realgems.util.ModRegistries;
+import net.brett.realgems.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,6 +21,7 @@ public class RealGems implements ModInitializer {
 		ModRegistries.registerModStuffs();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGeneration();
 
 	}
 }

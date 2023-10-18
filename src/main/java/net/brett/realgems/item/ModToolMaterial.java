@@ -10,6 +10,7 @@ import java.util.function.Supplier;
 public enum ModToolMaterial implements ToolMaterial {
     PINK_DIAMOND(MiningLevels.DIAMOND, 1530, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.PINK_DIAMOND)),
     SAPPHIRE(MiningLevels.IRON, 1210, 5.0f, 2.0f, 10, () -> Ingredient.ofItems(ModItems.SAPPHIRE)),
+    AMBER(MiningLevels.IRON, 1000, 4.5f, 4.0f, 10, () -> Ingredient.ofItems(ModItems.AMBER)),
     JADE(5, 2000, 9.0f, 3.0f, 10, () -> Ingredient.ofItems(ModItems.JADE));
 
 

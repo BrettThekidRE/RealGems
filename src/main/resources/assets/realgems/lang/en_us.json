@@ -40,9 +40,6 @@
   "item.realgems.pink_diamond_shovel": "Pink Diamond Shovel",
   "item.realgems.pink_diamond_paxel": "Pink Diamond Paxel",
 
-  "item.realgems.just_the_ghost_of_you_music_disc": "Just The Ghost Of You",
-  "item.realgems.just_the_ghost_of_you_music_disc.desc": "BrettThekidRE - Just The Ghost Of You (CCO)",
-
   "item.realgems.red_coal": "Red Coal",
    "block.realgems.red_coal_block": "Red Coal Block",
    "block.realgems.deepslate_red_coal_ore": "Deepslate Red Coal Ore",
@@ -63,17 +60,35 @@
   "block.realgems.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "item.realgems.sapphire_paxel": "Sapphire Paxel",
 
+  "item.realgems.amber": "Amber",
+  "item.realgems.raw_amber": "Raw Amber",
+  "item.realgems.amber_sword": "Amber Sword",
+  "item.realgems.amber_axe": "Amber Axe",
+  "item.realgems.amber_pickaxe": "Amber Pickaxe",
+  "item.realgems.amber_shovel": "Amber Shovel",
+  "item.realgems.amber_hoe": "Amber Hoe",
+  "item.realgems.amber_paxel": "Amber Paxel",
+  "item.realgems.amber_helmet": "Amber Helmet",
+  "item.realgems.amber_chestplate": "Amber Chestplate",
+  "item.realgems.amber_leggings": "Amber Leggings",
+  "item.realgems.amber_boots": "Amber Boots",
+  "block.realgems.amber_ore": "Amber Ore",
+  "block.realgems.deepslate_amber_ore": "Amber Ore",
+  "block.realgems.amber_block": "Amber Block",
 
   "item.realgems.banana": "Banana",
   "item.realgems.cherry": "Cherry",
+  "item.realgems.sweetcorn": "SweetCorn",
+  "item.realgems.sweetcorn_seeds": "SweetCorn Seeds",
 
   "itemgroup.red_coal": "Red Coal",
   "itemgroup.food": "Food",
   "itemgroup.jade": "Jade",
   "itemgroup.pink_diamond": "Pink Diamond",
-  "itemgroup.wood_and_saplings": "Wood + Saplings",
+  "itemgroup.wood_and_saplings": "Wood And Sapling",
   "itemgroup.sapphire": "Sapphire",
-  "itemgroup.disc": "Music Discs"
+  "itemgroup.seeds": "Crop Seeds",
+  "itemgroup.amber": "Amber"
 }
 
 

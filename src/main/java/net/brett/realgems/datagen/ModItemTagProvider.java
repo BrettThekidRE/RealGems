@@ -32,7 +32,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PINK_DIAMOND_HELMET)
                 .add(ModItems.PINK_DIAMOND_CHESTPLATE)
                 .add(ModItems.PINK_DIAMOND_LEGGINGS)
-                .add(ModItems.PINK_DIAMOND_BOOTS);
+                .add(ModItems.PINK_DIAMOND_BOOTS)
+
+                .add(ModItems.AMBER_HELMET)
+                .add(ModItems.AMBER_CHESTPLATE)
+                .add(ModItems.AMBER_LEGGINGS)
+                .add(ModItems.AMBER_BOOTS);
+
+
 
         getOrCreateTagBuilder(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.COLD_TREE_WOOD.asItem(),

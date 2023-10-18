@@ -323,7 +323,102 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.JADE), conditionsFromItem(ModItems.JADE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.JADE_BOOTS) + "_"));
 
+ ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_HELMET)
+                .pattern("   ")
+                .pattern("AAA")
+                .pattern("A A")
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_HELMET) + "_"));
 
+ ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_CHESTPLATE)
+                .pattern("A A")
+                .pattern("AAA")
+                .pattern("AAA")
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_CHESTPLATE) + "_"));
+
+ ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_LEGGINGS)
+                .pattern("AAA")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_LEGGINGS) + "_"));
+
+ ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_BOOTS)
+                .pattern("   ")
+                .pattern("A A")
+                .pattern("A A")
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_BOOTS) + "_"));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_SWORD)
+                .pattern(" A ")
+                .pattern(" A ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_SWORD) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_AXE)
+                .pattern("AA ")
+                .pattern("AS ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_AXE) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_PICKAXE)
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_PICKAXE) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_SHOVEL)
+                .pattern(" A ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_SHOVEL) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_HOE)
+                .pattern(" AA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('A', ModItems.AMBER)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER), conditionsFromItem(ModItems.AMBER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_HOE) + "_"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.AMBER_PAXEL)
+                .pattern("asP")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('S', Items.STICK)
+                .input('P', ModItems.AMBER_PICKAXE)
+                .input('s', ModItems.AMBER_SHOVEL)
+                .input('a', ModItems.AMBER_AXE)
+                .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
+                .criterion(hasItem(ModItems.AMBER_AXE), conditionsFromItem(ModItems.AMBER_AXE))
+                .criterion(hasItem(ModItems.AMBER_SHOVEL), conditionsFromItem(ModItems.AMBER_SHOVEL))
+                .criterion(hasItem(ModItems.AMBER_PICKAXE), conditionsFromItem(ModItems.AMBER_PICKAXE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AMBER_PAXEL) + "_"));
 
 
     offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.JADE, RecipeCategory.MISC, ModBlocks.JADE_BLOCK);
@@ -346,6 +441,14 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     offerBlasting(exporter, List.of(ModItems.SAPPHIRE, ModBlocks.SAPPHIRE_ORE, ModBlocks.DEEPSLATE_SAPPHIRE_ORE),
           RecipeCategory.MISC, ModItems.SAPPHIRE,
             0.45f, 100, "sapphire");
+
+    offerSmelting(exporter, List.of(ModItems.AMBER, ModBlocks.AMBER_ORE, ModBlocks.DEEPSLATE_AMBER_ORE),
+          RecipeCategory.MISC, ModItems.AMBER,
+            0.25f, 200, "amber");
+
+    offerBlasting(exporter, List.of(ModItems.AMBER, ModBlocks.AMBER_ORE, ModBlocks.DEEPSLATE_AMBER_ORE),
+          RecipeCategory.MISC, ModItems.AMBER,
+            0.45f, 100, "amber");
 
 
     offerSmelting(exporter, List.of(ModItems.RED_COAL, ModBlocks.RED_COAL_ORE, ModBlocks.DEEPSLATE_RED_COAL_ORE),

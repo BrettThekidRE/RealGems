@@ -9,5 +9,6 @@ public class RealGemsModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COLD_TREE_SAPLING, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SWEETCORN_CROP, RenderLayer.getCutout());
     }
 }
