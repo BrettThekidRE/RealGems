@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "realgems:block/cold_tree_log",
+    "side": "realgems:block/cold_tree_log"
+  }
+}

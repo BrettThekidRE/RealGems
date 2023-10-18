@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "realgems:jade_ore",
+    "realgems:red_coal_ore",
+    "realgems:sapphire_ore",
+    "realgems:raw_jade_block",
+    "realgems:pink_diamond_ore"
+  ]
+}

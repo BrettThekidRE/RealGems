@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "realgems:sapphire"
+    }
+  },
+  "pattern": [
+    "J J",
+    "JJJ",
+    "JJJ"
+  ],
+  "result": {
+    "item": "realgems:jade_chestplate"
+  },
+  "show_notification": true
+}

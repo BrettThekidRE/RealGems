@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "realgems:jade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "JJJ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:jade_pickaxe"
+  },
+  "show_notification": true
+}

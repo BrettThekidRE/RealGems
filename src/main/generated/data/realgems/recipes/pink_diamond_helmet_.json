@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "realgems:pink_diamond"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PPP",
+    "P P"
+  ],
+  "result": {
+    "item": "realgems:pink_diamond_helmet"
+  },
+  "show_notification": true
+}

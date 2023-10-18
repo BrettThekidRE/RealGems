@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "realgems:jade"
+    }
+  },
+  "pattern": [
+    "   ",
+    "JJJ",
+    "J J"
+  ],
+  "result": {
+    "item": "realgems:jade_helmet"
+  },
+  "show_notification": true
+}

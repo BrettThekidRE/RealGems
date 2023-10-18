@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "realgems:stripped_cold_tree_log",
+    "realgems:stripped_cold_tree_wood",
+    "realgems:cold_tree_log",
+    "realgems:cold_tree_wood"
+  ]
+}

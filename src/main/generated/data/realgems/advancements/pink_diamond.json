@@ -1,0 +1,39 @@
+{
+  "parent": "realgems:realgems",
+  "criteria": {
+    "has_pink_diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:pink_diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "realgems:textures/block/pink_diamond_ore.png",
+    "description": {
+      "text": "A Pink Diamond?"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "realgems:pink_diamond"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Pink_Diamond"
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_diamond"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

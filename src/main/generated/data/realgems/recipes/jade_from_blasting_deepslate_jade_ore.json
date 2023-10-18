@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.45,
+  "group": "jade",
+  "ingredient": {
+    "item": "realgems:deepslate_jade_ore"
+  },
+  "result": "realgems:jade"
+}

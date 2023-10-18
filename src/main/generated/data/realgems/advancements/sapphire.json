@@ -1,0 +1,39 @@
+{
+  "parent": "realgems:realgems",
+  "criteria": {
+    "has_sapphire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:sapphire"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "realgems:textures/block/sapphire_ore.png",
+    "description": {
+      "text": "Shine Bright Like A Diamond"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "realgems:sapphire"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Sapphire"
+    }
+  },
+  "requirements": [
+    [
+      "has_sapphire"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

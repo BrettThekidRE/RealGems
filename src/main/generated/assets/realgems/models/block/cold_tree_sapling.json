@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "realgems:block/cold_tree_sapling"
+  }
+}

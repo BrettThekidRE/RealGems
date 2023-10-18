@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "s": {
+      "item": "realgems:sapphire"
+    }
+  },
+  "pattern": [
+    " s ",
+    " s ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:sapphire_sword"
+  },
+  "show_notification": true
+}

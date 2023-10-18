@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jade_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:jade_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jade_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:jade_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_jade_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:jade_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:jade_paxel_"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_stick",
+      "has_jade_shovel",
+      "has_jade_axe",
+      "has_jade_pickaxe",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:jade_paxel_"
+    ]
+  },
+  "sends_telemetry_event": false
+}

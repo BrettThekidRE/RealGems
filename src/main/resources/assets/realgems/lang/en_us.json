@@ -1,0 +1,81 @@
+{
+
+  "item.realgems.jade": "Jade",
+  "item.realgems.jade_helmet": "Jade Helmet",
+  "item.realgems.jade_chestplate": "Jade Chestplate",
+  "item.realgems.jade_leggings": "Jade Leggings",
+  "item.realgems.jade_boots": "Jade Boots",
+  "item.realgems.jade_hoe": "Jade Hoe",
+  "item.realgems.jade_shovel": "Jade Shovel",
+  "item.realgems.jade_pickaxe": "Jade Pickaxe",
+  "item.realgems.jade_axe": "Jade Axe",
+  "item.realgems.jade_sword": "Jade Sword",
+  "item.realgems.raw_jade": "Raw Jade",
+  "block.realgems.jade_ore": "Jade Ore",
+  "block.realgems.deepslate_jade_ore": "Deepslate Jade Ore",
+  "block.realgems.raw_jade_block": "Raw Jade Block",
+  "block.realgems.jade_block": "Jade Block",
+  "item.realgems.jade_paxel": "Jade Paxel",
+
+  "block.realgems.cold_tree_leaves": "Cold Tree Leaves",
+  "block.realgems.cold_tree_planks": "Cold Tree Planks",
+  "block.realgems.cold_tree_sapling": "Cold Tree Sapling",
+  "block.realgems.cold_tree_wood": "Cold Tree Wood",
+  "block.realgems.cold_tree_log": "Cold Tree Log",
+  "block.realgems.stripped_cold_tree_log": "Stripped Cold Tree Log",
+  "block.realgems.stripped_cold_tree_wood": "Stripped Cold Tree Wood",
+
+  "block.realgems.deepslate_pink_diamond_ore": "Deepslate Pink Diamond Ore",
+  "block.realgems.pink_diamond_ore": "Pink Diamond Ore",
+  "block.realgems.pink_diamond_block": "Pink Diamond Block",
+  "item.realgems.pink_diamond": "Pink Diamond",
+  "item.realgems.pink_diamond_axe": "Pink Diamond Axe ",
+  "item.realgems.pink_diamond_boots": "Pink Diamond Boots",
+  "item.realgems.pink_diamond_chestplate": "Pink Diamond Chestplate",
+  "item.realgems.pink_diamond_helmet": "Pink Diamond Helmet",
+  "item.realgems.pink_diamond_hoe": "Pink Diamond Hoe ",
+  "item.realgems.pink_diamond_leggings": "Pink Diamond Leggings",
+  "item.realgems.pink_diamond_sword": "Pink Diamond Sword ",
+  "item.realgems.pink_diamond_pickaxe": "Pink Diamond Pickaxe",
+  "item.realgems.pink_diamond_shovel": "Pink Diamond Shovel",
+  "item.realgems.pink_diamond_paxel": "Pink Diamond Paxel",
+
+  "item.realgems.just_the_ghost_of_you_music_disc": "Just The Ghost Of You",
+  "item.realgems.just_the_ghost_of_you_music_disc.desc": "BrettThekidRE - Just The Ghost Of You (CCO)",
+
+  "item.realgems.red_coal": "Red Coal",
+   "block.realgems.red_coal_block": "Red Coal Block",
+   "block.realgems.deepslate_red_coal_ore": "Deepslate Red Coal Ore",
+   "block.realgems.red_coal_ore": "Red Coal Ore",
+
+  "block.realgems.sapphire_block": "Sapphire Block",
+  "block.realgems.sapphire_ore": "Sapphire Ore",
+  "item.realgems.sapphire": "Sapphire",
+  "item.realgems.sapphire_axe": "Sapphire Axe",
+  "item.realgems.sapphire_boots": "Sapphire Boots",
+  "item.realgems.sapphire_chestplate": "Sapphire Chestplate",
+  "item.realgems.sapphire_helmet": "Sapphire Helmet",
+  "item.realgems.sapphire_hoe": "Sapphire Hoe",
+  "item.realgems.sapphire_leggings": "Sapphire Leggings",
+  "item.realgems.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.realgems.sapphire_shovel": "Sapphire Shovel",
+  "item.realgems.sapphire_sword": "Sapphire Sword",
+  "block.realgems.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "item.realgems.sapphire_paxel": "Sapphire Paxel",
+
+
+  "item.realgems.banana": "Banana",
+  "item.realgems.cherry": "Cherry",
+
+  "itemgroup.red_coal": "Red Coal",
+  "itemgroup.food": "Food",
+  "itemgroup.jade": "Jade",
+  "itemgroup.pink_diamond": "Pink Diamond",
+  "itemgroup.wood_and_saplings": "Wood + Saplings",
+  "itemgroup.sapphire": "Sapphire",
+  "itemgroup.disc": "Music Discs"
+}
+
+
+
+

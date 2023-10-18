@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.45,
+  "group": "red_coal",
+  "ingredient": {
+    "item": "realgems:deepslate_red_coal_ore"
+  },
+  "result": "realgems:red_coal"
+}

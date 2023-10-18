@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "a": {
+      "item": "realgems:pink_diamond_axe"
+    },
+    "p": {
+      "item": "realgems:pink_diamond_pickaxe"
+    },
+    "z": {
+      "item": "realgems:pink_diamond_shovel"
+    }
+  },
+  "pattern": [
+    "pza",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:pink_diamond_paxel"
+  },
+  "show_notification": true
+}

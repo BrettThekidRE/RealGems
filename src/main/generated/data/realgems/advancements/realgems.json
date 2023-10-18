@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "has_raw_jade": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "realgems:raw_jade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "realgems:textures/block/jade_ore.png",
+    "description": {
+      "text": "Amazing you found me"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "realgems:raw_jade"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "JADE"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_jade"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "P": {
+      "item": "realgems:pink_diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "PP ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:pink_diamond_hoe"
+  },
+  "show_notification": true
+}

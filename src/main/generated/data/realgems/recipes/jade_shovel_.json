@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "J": {
+      "item": "realgems:jade"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " J ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:jade_shovel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.45,
+  "group": "pink_diamond",
+  "ingredient": {
+    "item": "realgems:deepslate_pink_diamond_ore"
+  },
+  "result": "realgems:pink_diamond"
+}

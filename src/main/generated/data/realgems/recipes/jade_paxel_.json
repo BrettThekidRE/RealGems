@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "a": {
+      "item": "realgems:jade_axe"
+    },
+    "p": {
+      "item": "realgems:jade_pickaxe"
+    },
+    "z": {
+      "item": "realgems:jade_shovel"
+    }
+  },
+  "pattern": [
+    "pza",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "realgems:jade_paxel"
+  },
+  "show_notification": true
+}

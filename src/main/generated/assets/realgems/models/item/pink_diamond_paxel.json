@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "realgems:item/pink_diamond_paxel"
+  }
+}
