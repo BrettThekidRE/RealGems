@@ -25,6 +25,8 @@ public class ModItems {
           new Item(new FabricItemSettings()));
  public static final Item RAW_AMBER = registerItem("raw_amber",
           new Item(new FabricItemSettings()));
+ public static final Item RUBY = registerItem("ruby",
+          new Item(new FabricItemSettings()));
 
   public static final Item BANANA = registerItem("banana",
           new Item(new FabricItemSettings().food(ModFoodComponents.BANANA)));

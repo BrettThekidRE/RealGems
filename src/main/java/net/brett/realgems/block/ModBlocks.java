@@ -87,6 +87,23 @@ public static final Block DEEPSLATE_AMBER_ORE = registerBlock("deepslate_amber_o
 public static final Block SWEETCORN_CROP = registerBlockWithoutBlockItem("sweetcorn_crop",
             new SweetcornCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
+    public static final Block COLORED_LEAVES = registerBlock("colored_leaves",
+            new LeavesBlock(FabricBlockSettings.copyOf(Blocks.SPRUCE_LEAVES)));
+
+    public static final Block BLUE_STONE = registerBlock("blue_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block PINK_STONE = registerBlock("pink_stone",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+
+    public static final Block BLUE_COBBLESTONE = registerBlock("blue_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+
+    public static final Block PINK_COBBLESTONE = registerBlock("pink_cobblestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.COBBLESTONE)));
+
+    public static final Block BLUE_STONE_BRICKS = registerBlock("blue_stone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
 
 
 

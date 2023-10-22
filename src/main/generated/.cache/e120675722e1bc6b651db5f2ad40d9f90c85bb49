@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-19T23:26:26.3260949	RealGems/Block Loot Tables
+// 1.20.1	2023-10-22T14:46:52.9888093	RealGems/Block Loot Tables
 d81a707dbd823a8bbbb6668b7c680c12e4cc9725 data\realgems\loot_tables\blocks\deepslate_amber_ore.json
 e8f584b4250b76bbbb63859e30036849cffee894 data\realgems\loot_tables\blocks\sweetcorn_crop.json
 8fb67046973702fd4e8ea841a0792b5701ddcd75 data\realgems\loot_tables\blocks\red_coal_ore.json
@@ -12,6 +12,7 @@ d8f822a714101c96740c8af6505976c5b2905852 data\realgems\loot_tables\blocks\deepsl
 3bc3e082a99aed156f82fb6d4d5cc9f0cc1552e6 data\realgems\loot_tables\blocks\deepslate_red_coal_ore.json
 318aa99a25d784ef629566ea351f93629743317a data\realgems\loot_tables\blocks\pink_diamond_ore.json
 d787dfc5f39f0fe2377666266dc9db04fb0c75ba data\realgems\loot_tables\blocks\jade_ore.json
+a5349db43006e2ef12e2b0ddc4cb8f79616a7a41 data\realgems\loot_tables\blocks\blue_stone.json
 c991835ecddd92ae05f1f198913cbe69df229bcf data\realgems\loot_tables\blocks\deepslate_pink_diamond_ore.json
 b61836d65f412e0b922d1cf699ce5b45f6a115f3 data\realgems\loot_tables\blocks\sapphire_block.json
 6a3f6076d7b04ae37b111872ef6a3a351dcf9694 data\realgems\loot_tables\blocks\sapphire_ore.json

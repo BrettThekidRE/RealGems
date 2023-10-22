@@ -37,7 +37,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.DEEPSLATE_JADE_ORE,
                         ModBlocks.DEEPSLATE_SAPPHIRE_ORE,
                         ModBlocks.DEEPSLATE_RED_COAL_ORE,
-                        ModBlocks.DEEPSLATE_AMBER_ORE);
+                        ModBlocks.DEEPSLATE_AMBER_ORE,
+                        ModBlocks.BLUE_STONE,
+                        ModBlocks.BLUE_COBBLESTONE,
+                        ModBlocks.PINK_STONE,
+                        ModBlocks.PINK_COBBLESTONE,
+                        ModBlocks.BLUE_STONE_BRICKS);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 
@@ -62,7 +67,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.PINK_DIAMOND_BLOCK,
                         ModBlocks.SAPPHIRE_BLOCK,
                         ModBlocks.AMBER_BLOCK,
-                        ModBlocks.RED_COAL_BLOCK);
+                        ModBlocks.RED_COAL_BLOCK,
+                        ModBlocks.BLUE_STONE,
+                        ModBlocks.PINK_COBBLESTONE,
+                        ModBlocks.BLUE_COBBLESTONE,
+                        ModBlocks.PINK_STONE);
 
         getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
                 .forceAddTag(BlockTags.PICKAXE_MINEABLE)

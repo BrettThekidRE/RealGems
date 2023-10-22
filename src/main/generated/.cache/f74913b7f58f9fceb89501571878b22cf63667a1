@@ -1,7 +1,7 @@
-// 1.20.1	2023-10-19T23:26:26.3161213	RealGems/Tags for minecraft:block
+// 1.20.1	2023-10-22T14:46:52.9748568	RealGems/Tags for minecraft:block
 c716880e6ff6532ef3f8279ddfa40285b01886f3 data\realgems\tags\blocks\mineable\paxel.json
 c81777f6535d06ea65a3c44ae9e16e6ee6a2df7c data\minecraft\tags\blocks\logs_that_burn.json
 f8dc6e29ee11a22763803c5c7ad719a39e739c23 data\minecraft\tags\blocks\needs_iron_tool.json
-4989f9a7ad3eec5f6b4777b0359ee4843de3a370 data\minecraft\tags\blocks\needs_stone_tool.json
+6f8c4e583aad4563a23926a0084f81bb823fd00e data\minecraft\tags\blocks\needs_stone_tool.json
 3c4a873a84aaaa556637ec9d0478478bb4ffcb84 data\minecraft\tags\blocks\needs_diamond_tool.json
-598675bd881330980ab1f2dda6abd24bb12162aa data\minecraft\tags\blocks\mineable\pickaxe.json
+51a89f36bef393fdb57943710718c3785553c3b5 data\minecraft\tags\blocks\mineable\pickaxe.json

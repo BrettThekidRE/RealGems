@@ -16,6 +16,11 @@
     "realgems:deepslate_jade_ore",
     "realgems:deepslate_sapphire_ore",
     "realgems:deepslate_red_coal_ore",
-    "realgems:deepslate_amber_ore"
+    "realgems:deepslate_amber_ore",
+    "realgems:blue_stone",
+    "realgems:blue_cobblestone",
+    "realgems:pink_stone",
+    "realgems:pink_cobblestone",
+    "realgems:blue_stone_bricks"
   ]
 }

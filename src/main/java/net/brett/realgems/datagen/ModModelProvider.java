@@ -6,9 +6,7 @@ import net.brett.realgems.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.block.CropBlock;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 
 public class ModModelProvider extends FabricModelProvider {
@@ -34,10 +32,15 @@ public class ModModelProvider extends FabricModelProvider {
          blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMBER_ORE);
          blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_AMBER_ORE);
          blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.AMBER_BLOCK);
+         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_STONE);
+         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_STONE);
+         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_COBBLESTONE);
+         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_COBBLESTONE);
+         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_STONE_BRICKS);
 
          blockStateModelGenerator.registerCrop(ModBlocks.SWEETCORN_CROP, SweetcornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
-
+         blockStateModelGenerator.registerSingleton(ModBlocks.COLORED_LEAVES, TexturedModel.LEAVES);
 
          blockStateModelGenerator.registerLog(ModBlocks.COLD_TREE_LOG).log(ModBlocks.COLD_TREE_LOG).wood(ModBlocks.COLD_TREE_WOOD);
          blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_COLD_TREE_LOG).log(ModBlocks.STRIPPED_COLD_TREE_LOG).wood(ModBlocks.STRIPPED_COLD_TREE_WOOD);

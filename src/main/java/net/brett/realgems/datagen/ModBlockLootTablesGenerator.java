@@ -37,6 +37,9 @@ public class ModBlockLootTablesGenerator extends FabricBlockLootTableProvider {
        addDrop(ModBlocks.DEEPSLATE_RED_COAL_ORE, oreDrops(ModBlocks.DEEPSLATE_RED_COAL_ORE, ModItems.RED_COAL));
        addDrop(ModBlocks.DEEPSLATE_AMBER_ORE, oreDrops(ModBlocks.DEEPSLATE_AMBER_ORE, ModItems.RAW_AMBER));
        addDrop(ModBlocks.AMBER_ORE, oreDrops(ModBlocks.AMBER_ORE, ModItems.RAW_AMBER));
+        addDrop(ModBlocks.BLUE_STONE);
+
+
 
         BlockStatePropertyLootCondition.Builder builder2 = BlockStatePropertyLootCondition.builder(ModBlocks.SWEETCORN_CROP).
                 properties(StatePredicate.Builder.create().exactMatch(SweetcornCropBlock.AGE, 6));

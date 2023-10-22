@@ -54,6 +54,23 @@ public class  ModItemGroup {
 
                     }).build());
 
+    public static final ItemGroup STONES = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RealGems.MOD_ID, "blue_stone"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blue_stone"))
+                    .icon(() -> new ItemStack(ModBlocks.BLUE_STONE)).entries((displayContext, entries) -> {
+                      entries.add(ModBlocks.BLUE_STONE);
+                      entries.add(ModBlocks.BLUE_COBBLESTONE);
+                      entries.add(ModBlocks.BLUE_STONE_BRICKS);
+                      entries.add(ModBlocks.PINK_STONE);
+                      entries.add(ModBlocks.PINK_COBBLESTONE);
+
+
+
+
+
+
+                    }).build());
+
     public static final ItemGroup SEEDS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RealGems.MOD_ID, "seeds"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.seeds"))
@@ -145,6 +162,7 @@ public class  ModItemGroup {
                         entries.add(ModBlocks.STRIPPED_COLD_TREE_WOOD);
                         entries.add(ModBlocks.STRIPPED_COLD_TREE_LOG);
                         entries.add(ModBlocks.COLD_TREE_SAPLING);
+                        entries.add(ModBlocks.COLORED_LEAVES);
 
 
                     }).build());
@@ -175,6 +193,19 @@ public class  ModItemGroup {
 
                     }).build());
 
+    public static final ItemGroup RUBY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RealGems.MOD_ID, "ruby"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ruby"))
+                    .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.RUBY);
+
+
+
+
+
+
+
+                    }).build());
 
 
     public static void registerItemGroups() {

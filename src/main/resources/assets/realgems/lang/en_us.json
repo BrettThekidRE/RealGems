@@ -1,5 +1,11 @@
 {
 
+  "block.realgems.blue_stone": "Blue Stone",
+  "block.realgems.blue_stone_bricks": "Blue Stone Bricks",
+  "block.realgems.pink_stone": "Pink Stone",
+  "block.realgems.blue_cobblestone": "Blue CobbleStone",
+  "block.realgems.pink_cobblestone": "Pink CobbleStone",
+
   "item.realgems.jade": "Jade",
   "item.realgems.jade_helmet": "Jade Helmet",
   "item.realgems.jade_chestplate": "Jade Chestplate",
@@ -24,6 +30,8 @@
   "block.realgems.cold_tree_log": "Cold Tree Log",
   "block.realgems.stripped_cold_tree_log": "Stripped Cold Tree Log",
   "block.realgems.stripped_cold_tree_wood": "Stripped Cold Tree Wood",
+  "block.realgems.colored_leaves": "Colored Leaves",
+
 
   "block.realgems.deepslate_pink_diamond_ore": "Deepslate Pink Diamond Ore",
   "block.realgems.pink_diamond_ore": "Pink Diamond Ore",
@@ -88,7 +96,9 @@
   "itemgroup.wood_and_saplings": "Wood And Sapling",
   "itemgroup.sapphire": "Sapphire",
   "itemgroup.seeds": "Crop Seeds",
-  "itemgroup.amber": "Amber"
+  "itemgroup.amber": "Amber",
+  "itemgroup.ruby": "Ruby",
+  "itemgroup.blue_stone": "Blue Stone"
 }
 
 

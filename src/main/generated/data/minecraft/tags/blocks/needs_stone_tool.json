@@ -5,6 +5,10 @@
     "realgems:pink_diamond_block",
     "realgems:sapphire_block",
     "realgems:amber_block",
-    "realgems:red_coal_block"
+    "realgems:red_coal_block",
+    "realgems:blue_stone",
+    "realgems:pink_cobblestone",
+    "realgems:blue_cobblestone",
+    "realgems:pink_stone"
   ]
 }
