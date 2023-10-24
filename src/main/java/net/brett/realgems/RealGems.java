@@ -1,8 +1,10 @@
 package net.brett.realgems;
 
 import net.brett.realgems.block.ModBlocks;
+import net.brett.realgems.block.entity.ModBlockEntities;
 import net.brett.realgems.item.ModItemGroup;
 import net.brett.realgems.item.ModItems;;
+import net.brett.realgems.screen.ModScreenHandlers;
 import net.brett.realgems.util.ModRegistries;
 import net.brett.realgems.world.gen.ModWorldGeneration;
 import net.brett.realgems.world.gen.tree.ModFoliagePlacerTypes;
@@ -24,5 +26,7 @@ public class RealGems implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGeneration();
 		ModFoliagePlacerTypes.register();
+		ModBlockEntities.registerBlockEntities();
+		ModScreenHandlers.registerScreenHandlers();
 	}
 }

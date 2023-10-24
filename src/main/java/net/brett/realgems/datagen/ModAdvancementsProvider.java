@@ -1,6 +1,5 @@
 package net.brett.realgems.datagen;
 
-import com.ibm.icu.lang.UCharacter;
 import net.brett.realgems.RealGems;
 import net.brett.realgems.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -21,8 +20,9 @@ public class ModAdvancementsProvider extends FabricAdvancementProvider {
     }
 
 
+
     @Override
-    public void generateAdvancement(Consumer<Advancement> consumer) {
+    public void generateAdvancement(Consumer consumer) {
         Advancement rootAdvancement = Advancement.Builder.create()
                 .display(new AdvancementDisplay(new ItemStack(ModItems.RAW_JADE),
                         Text.literal("JADE"), Text.literal("Amazing you found me"),

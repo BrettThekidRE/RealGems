@@ -1,4 +1,4 @@
-// 1.20.1	2023-10-22T14:46:52.97984	RealGems/Recipes
+// 1.20.1	2023-10-23T17:12:54.187948	RealGems/Recipes
 093be849901e585b20bc43d891717b004b92845f data\realgems\advancements\recipes\misc\sapphire_block.json
 3339cfcb298888a4875ec1ce0f79ec58516b2128 data\realgems\advancements\recipes\misc\red_coal_from_smelting_red_coal.json
 d6cee0ba5b6608bf90162b731483844866e61009 data\realgems\recipes\amber_hoe_.json
@@ -42,8 +42,8 @@ e68f3c81b7d2cc7363b76eac25190a8e628d65f8 data\realgems\recipes\red_coal_from_sme
 0013d8f8c14cd28c1ec5a2b9f474861d4ec4c53b data\realgems\advancements\recipes\combat\amber_pickaxe_.json
 6409c7babca3b2d66fc575b6982630a8ece5ead3 data\realgems\recipes\pink_diamond_chestplate_.json
 f13f49bfcda3fb9d60a364ec180f4b9188b8690f data\realgems\recipes\sapphire_from_blasting_sapphire.json
-6d9f23f32a10238ac62daa54981d1de2c0188f71 data\realgems\recipes\jade_shovel_.json
 0eb4ff5e8d56678d963fa28d14118c8de3e802d8 data\realgems\advancements\recipes\combat\jade_sword_.json
+6d9f23f32a10238ac62daa54981d1de2c0188f71 data\realgems\recipes\jade_shovel_.json
 3212b25e21e9a66340b2197db203591dbff1f09d data\realgems\recipes\pink_diamond_hoe_.json
 4d9560cbbaa2be7b98b6ba060ce0cdcf19233f2e data\realgems\recipes\amber_axe_.json
 ba2928475bbee4866b44bb4bb954648c647896a8 data\realgems\recipes\amber_boots_.json
@@ -108,8 +108,8 @@ ab0cbc6cf02a7e4633f28feb5816af3eb2ae0597 data\realgems\advancements\recipes\misc
 0ea9916bd83ea9ed87ea2e13e481dc7bc235b2d0 data\realgems\advancements\recipes\misc\pink_diamond_from_blasting_pink_diamond.json
 91b034b7537bc624eee2fb1b272ea49d512cca35 data\realgems\advancements\recipes\combat\jade_chestplate_.json
 99a6986b8d23410843a55a30ccd46777e67fe737 data\realgems\advancements\recipes\misc\pink_diamond_from_blasting_pink_diamond_ore.json
-7541d27d39f797e0388b9b35e789ed30695aaad5 data\realgems\advancements\recipes\tools\pink_diamond_paxel_.json
 12097a4f1bdc1fedf2188ae61ac4d99e98faff6b data\realgems\advancements\recipes\combat\sapphire_boots_.json
+7541d27d39f797e0388b9b35e789ed30695aaad5 data\realgems\advancements\recipes\tools\pink_diamond_paxel_.json
 98f7c5a5fc9731002b6d1cbd7f7a38f27e2916ea data\realgems\recipes\jade_block.json
 d60989e6dc2a3cbd5a6bd56abb2e9b9902ea597b data\realgems\advancements\recipes\combat\sapphire_helmet_.json
 c599a9a20b1082630621545cb76e076c74fd2fc0 data\realgems\recipes\amber_from_blasting_deepslate_amber_ore.json

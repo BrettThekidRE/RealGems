@@ -63,6 +63,7 @@ public class  ModItemGroup {
                       entries.add(ModBlocks.BLUE_STONE_BRICKS);
                       entries.add(ModBlocks.PINK_STONE);
                       entries.add(ModBlocks.PINK_COBBLESTONE);
+                      entries.add(ModBlocks.SOLAR_STATION);
 
 
 

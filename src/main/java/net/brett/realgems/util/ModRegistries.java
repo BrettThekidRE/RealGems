@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
-import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 import net.minecraft.village.TradeOffer;
@@ -19,27 +18,8 @@ public class ModRegistries {
         registerStrippables();
         registerFlammables();
         registerCustomTrades();
-        createPortal();
+
     }
-
-
-        public static void createPortal() {
-            CustomPortalBuilder.beginPortal()
-                    .frameBlock(ModBlocks.AMBER_BLOCK)
-                    .lightWithItem(ModItems.RED_COAL)
-                    .destDimID(new Identifier(RealGems.MOD_ID, "kaupendim"))
-                    .tintColor(0xe154f)
-                    .registerPortal();
-
-        }
-
-
-
-
-
-
-
-
 
     private static void registerFuels() {
         FuelRegistry registry = FuelRegistry.INSTANCE;

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "realgems:block/solar_station",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "realgems:block/solar_station"
+    },
+    "facing=south": {
+      "model": "realgems:block/solar_station",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "realgems:block/solar_station",
+      "y": 270
+    }
+  }
+}

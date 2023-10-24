@@ -1,5 +1,4 @@
-// 1.20.1	2023-10-22T14:46:52.9908026	RealGems/World Gen
-9e7d87ca8e473e916781ca352d119013af1bf0a8 data\realgems\dimension_type\brettdim_type.json
+// 1.20.1	2023-10-23T17:12:54.2099517	RealGems/World Gen
 4c758f3b26b838d36b215a7973cccdfafc3a5f21 data\realgems\worldgen\biome\driedout_biome.json
 3b5fec4c656cc766606ad55d92969327614fb631 data\realgems\worldgen\placed_feature\red_coal_ore_placed.json
 ae5a798c723d9bf95f94cb3d0f1a6f1279753215 data\realgems\worldgen\placed_feature\coldtree_placed.json
@@ -9,8 +8,8 @@ f57a670cbb4f517d5d18d81a4e683486319f720a data\realgems\worldgen\placed_feature\p
 b875ae85d4daacca3e21ea44c6c93aefc8b26f75 data\realgems\worldgen\configured_feature\sapphire_ore.json
 56894098702316ed88fc7c3630532a8c49fcbd23 data\realgems\worldgen\biome\coldtree_biome.json
 e525fa6ec94e2f09827246c7d425fa2d51e62391 data\realgems\worldgen\placed_feature\amber_ore_placed.json
-a203b7544e73d54e45ed97f967a23b3c4358b4d6 data\realgems\worldgen\placed_feature\jade_ore_placed.json
 b329a2bb2701a43e7363a33e2ba3f032cef187a8 data\realgems\worldgen\placed_feature\sapphire_ore_placed.json
+a203b7544e73d54e45ed97f967a23b3c4358b4d6 data\realgems\worldgen\placed_feature\jade_ore_placed.json
 a8c3f70fcf6c5372b06e6a3d7ad102e00233c2ee data\realgems\worldgen\configured_feature\amber_ore.json
 f6a69c28376aaa2230143df4b89780e82704998d data\realgems\worldgen\configured_feature\coldtree.json
 35dce4f18acc983e3b94f5dcabe9edfc52721e50 data\realgems\worldgen\configured_feature\pink_diamond_ore.json

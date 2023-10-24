@@ -19,6 +19,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         super(output);
     }
 
+
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
 

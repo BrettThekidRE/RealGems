@@ -1,11 +1,11 @@
 package net.brett.realgems.datagen;
 
+
 import net.brett.realgems.block.ModBlocks;
 import net.brett.realgems.block.custom.SweetcornCropBlock;
 import net.brett.realgems.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.block.CropBlock;
 import net.minecraft.data.client.*;
 import net.minecraft.item.ArmorItem;
 
@@ -40,6 +40,10 @@ public class ModModelProvider extends FabricModelProvider {
 
          blockStateModelGenerator.registerCrop(ModBlocks.SWEETCORN_CROP, SweetcornCropBlock.AGE, 0, 1, 2, 3, 4, 5, 6);
 
+         blockStateModelGenerator.registerNorthDefaultHorizontalRotation(ModBlocks.SOLAR_STATION);
+
+
+
          blockStateModelGenerator.registerSingleton(ModBlocks.COLORED_LEAVES, TexturedModel.LEAVES);
 
          blockStateModelGenerator.registerLog(ModBlocks.COLD_TREE_LOG).log(ModBlocks.COLD_TREE_LOG).wood(ModBlocks.COLD_TREE_WOOD);
@@ -63,6 +67,7 @@ public class ModModelProvider extends FabricModelProvider {
       itemModelGenerator.register(ModItems.AMBER, Models.GENERATED);
       itemModelGenerator.register(ModItems.RAW_AMBER, Models.GENERATED);
       itemModelGenerator.register(ModItems.SWEETCORN, Models.GENERATED);
+      itemModelGenerator.register(ModItems.RUBY, Models.GENERATED);
 
 
       itemModelGenerator.register(ModItems.AMBER_SWORD, Models.HANDHELD);

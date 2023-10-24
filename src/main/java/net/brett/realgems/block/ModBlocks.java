@@ -1,6 +1,7 @@
 package net.brett.realgems.block;
 
 import net.brett.realgems.RealGems;
+import net.brett.realgems.block.custom.SolarStationBlock;
 import net.brett.realgems.block.custom.SweetcornCropBlock;
 import net.brett.realgems.world.gen.tree.ColdTreeSaplingGenerator;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -104,6 +105,9 @@ public static final Block SWEETCORN_CROP = registerBlockWithoutBlockItem("sweetc
 
     public static final Block BLUE_STONE_BRICKS = registerBlock("blue_stone_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.STONE_BRICKS)));
+
+    public static final Block SOLAR_STATION = registerBlock("solar_station",
+            new SolarStationBlock(FabricBlockSettings.copyOf(Blocks.GOLD_BLOCK).nonOpaque()));
 
 
 

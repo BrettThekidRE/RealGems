@@ -18,13 +18,16 @@
 		"main": [
 			"net.brett.realgems.RealGems"
 		],
-		"client": [
+			"client": [
 			"net.brett.realgems.RealGemsModClient"
 		],
 		"fabric-datagen": [
 			"net.brett.realgems.RealGemsDataGenerator"
 		],
 
+		"rei_client": [
+			"net.brett.realgems.compat.RealGemsModREIClientPlugin"
+		],
 		"terrablender": [
 			"net.brett.realgems.world.biome.ModTerraBlenderAPI"
 		]

@@ -1,5 +1,9 @@
 {
 
+  "block.realgems.solar_station": "Solar Station",
+
+
+
   "block.realgems.blue_stone": "Blue Stone",
   "block.realgems.blue_stone_bricks": "Blue Stone Bricks",
   "block.realgems.pink_stone": "Pink Stone",
@@ -83,6 +87,8 @@
   "block.realgems.amber_ore": "Amber Ore",
   "block.realgems.deepslate_amber_ore": "Amber Ore",
   "block.realgems.amber_block": "Amber Block",
+
+  "item.realgems.ruby": "Ruby",
 
   "item.realgems.banana": "Banana",
   "item.realgems.cherry": "Cherry",

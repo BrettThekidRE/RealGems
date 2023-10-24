@@ -42,7 +42,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.BLUE_COBBLESTONE,
                         ModBlocks.PINK_STONE,
                         ModBlocks.PINK_COBBLESTONE,
-                        ModBlocks.BLUE_STONE_BRICKS);
+                        ModBlocks.BLUE_STONE_BRICKS,
+                        ModBlocks.SOLAR_STATION);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 
@@ -60,7 +61,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                         ModBlocks.SAPPHIRE_ORE,
                         ModBlocks.RAW_JADE_BLOCK,
                         ModBlocks.PINK_DIAMOND_ORE,
-                        ModBlocks.AMBER_ORE);
+                        ModBlocks.AMBER_ORE,
+                        ModBlocks.SOLAR_STATION);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.JADE_BLOCK,
