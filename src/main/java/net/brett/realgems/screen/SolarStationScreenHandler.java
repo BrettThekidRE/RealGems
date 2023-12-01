@@ -24,7 +24,7 @@ import net.minecraft.screen.slot.Slot;
                     new ArrayPropertyDelegate(2));
         }
 
-        public SolarStationScreenHandler(int syncId, PlayerInventory inventory, BlockEntity blockEntity, PropertyDelegate arrayPropertyDelegate) {
+        public SolarStationScreenHandler(int syncId, PlayerInventory playerInventory, BlockEntity blockEntity, PropertyDelegate arrayPropertyDelegate) {
             super(ModScreenHandlers.SOLAR_STATION_SCREEN_HANDLER, syncId);
             checkSize(((Inventory) blockEntity), 2);
             this.inventory = (Inventory)blockEntity;
@@ -32,10 +32,11 @@ import net.minecraft.screen.slot.Slot;
             this.blockEntity = ((SolarStationBlockEntity) blockEntity);
 
             this.addSlot(new Slot(inventory, 0, 80, 11));
-            this.addSlot(new Slot(inventory, 1, 26, 59));
+            this.addSlot(new Slot(inventory, 1, 80, 59));
+        
 
-            addPlayerInventory(inventory);
-            addPlayerHotbar(inventory);
+            addPlayerInventory(playerInventory);
+            addPlayerHotbar(playerInventory);
 
             addProperties(arrayPropertyDelegate);
         }

@@ -34,13 +34,13 @@ public class SolarStationScreen extends HandledScreen<SolarStationScreenHandler>
     int x = (width - backgroundWidth) / 2;
     int y = (height - backgroundHeight) / 2;
 
-    context.drawTexture(TEXTURE, x, y, 0, 0, backgroundWidth, backgroundHeight);
+    context.drawTexture(TEXTURE, x, y, 0, 0,  backgroundWidth, backgroundHeight);
 
     renderProgressArrow(context, x, y);
     }
 private void renderProgressArrow(DrawContext context, int x, int y) {
       if (handler.isCrafting()) {
-        context.drawTexture(TEXTURE, x + 80, 30, 165, 0, 0, handler.getScaledProgress());
+        context.drawTexture(TEXTURE, x + 88, y + 30, 164, 0, 8, handler.getScaledProgress());
       }
 }
 
